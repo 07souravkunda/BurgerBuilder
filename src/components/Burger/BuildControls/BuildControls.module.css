@@ -1,0 +1,41 @@
+.BuildControls{
+    display : flex;
+    flex-flow:column;
+    margin:auto;
+    width:100%;
+    align-items:center;
+    background-color:#CF8F2E;
+    padding:10px 0;
+    box-shadow: 0 2px 1px #ccc;
+}
+.OrderButton{
+    outline:none;
+    background-color:green;
+    color:grey;
+    outline:none;
+    cursor:pointer;
+    width:180px;
+    height:50px;
+    padding:10px;
+    border-radius:3px;
+    margin:auto;
+} 
+.OrderButton{
+    background-position:center;
+    transition:background 0.8s;
+}
+.OrderButton:hover{
+    background:lightcoral radial-gradient(circle,
+    transparent 1%,lightcoral 1%) center/15000%;
+}
+.OrderButton:active{
+    background-color:coral;
+    background-size:100%;
+    transition:background 0s;
+}
+
+.OrderButton:disabled{
+    background-color:grey;
+    color:black;
+    cursor: not-allowed;
+}

@@ -1,0 +1,11 @@
+.OrderSummary{
+    padding:26px;
+    z-index: 500;
+}
+.OrderSummary p{
+    color:blue;
+}
+.OrderSummary li{
+    
+    margin:10px;
+}

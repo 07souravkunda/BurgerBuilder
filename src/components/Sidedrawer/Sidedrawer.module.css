@@ -1,0 +1,23 @@
+.Sidedrawer{
+    width:60%;
+    height:100%;
+    left:0;
+    background-color:white;
+    z-index:200;
+    display:block;
+    position:fixed;
+    padding:16px 8px;
+    box-sizing:border-box;
+    transition:transform 0.4s ease-out;
+}
+@media (min-width:500px){
+    .Sidedrawer{
+        display:none;
+    }
+}
+.Open{
+    transform:translateX(0);
+}
+.Close{
+    transform:translateX(-100%);
+}

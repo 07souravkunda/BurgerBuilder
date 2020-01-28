@@ -1,0 +1,22 @@
+.Modal{
+    position:fixed;
+    width:30%;
+    padding:20px;
+    margin:auto;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    border:black solid  2px;
+    box-shadow: 0px 3px 3px 0px grey;
+    align-items: center;
+    background-color:rgb(200, 164, 137);
+    z-index: 500;
+    transition:0.5s;
+}
+@media(max-height:550px) and (max-width:350px){
+    .Modal{
+        width:80%;
+        height:70%;
+    }
+}
+

@@ -1,0 +1,10 @@
+.ContactData{
+    align-content: center;
+    margin:auto;
+    width:80%;
+    display:block;
+    border:2px solid #ccc;
+    padding:10px;
+    box-sizing:border-box;
+   
+}

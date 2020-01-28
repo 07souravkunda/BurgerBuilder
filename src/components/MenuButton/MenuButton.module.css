@@ -1,0 +1,22 @@
+.MenuButton{
+    height:100%;
+    width:10%;
+    background-color:lightcyan;
+    display:flex;
+    flex-flow:column;
+    justify-content: space-between;
+    padding:5px 1px;
+    box-sizing:border-box;
+    cursor:pointer;
+}
+
+.MenuButton div{
+    height:4px;
+    width:100%;
+    background-color:black;
+}
+@media(min-width:500px){
+    .MenuButton{
+        display : none;
+    }
+}
