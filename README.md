@@ -1,68 +1,74 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# BurgerBuilder
 
-## Available Scripts
+Preview app https://burgerapp-86de2.firebaseapp.com/
 
-In the project directory, you can run:
+## Getting Started
 
-### `npm start`
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+Cloning a repository using the command line
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+    On GitHub, navigate to the main page of the repository.
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+    Note: If the repository is empty, you can manually copy the repository page's URL from your browser and skip to step four.
 
-### `npm test`
+    Under the repository name, click Clone or download.
+    Clone or download button
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+    To clone the repository using HTTPS, under "Clone with HTTPS", click 
 
-### `npm run build`
+. To clone the repository using an SSH key, including a certificate issued by your organization's SSH certificate authority, click Use SSH, then click
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+    .
+    Clone URL button
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+    Open Terminal.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+    Change the current working directory to the location where you want the cloned directory to be made.
 
-### `npm run eject`
+    Type git clone, and then paste the URL you copied in Step 2.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+    $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+    Press Enter. Your local clone will be created.
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+    $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+    > Cloning into `Spoon-Knife`...
+    > remote: Counting objects: 10, done.
+    > remote: Compressing objects: 100% (8/8), done.
+    > remove: Total 10 (delta 1), reused 10 (delta 1)
+    > Unpacking objects: 100% (10/10), done.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Cloning a repository to GitHub Desktop
 
-## Learn More
+    On GitHub, navigate to the main page of the repository.
+    Under your repository name, click 
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+to clone your repository in Desktop. Follow the prompts in GitHub Desktop to complete the clone. For more information, see "Cloning a repository from GitHub to GitHub Desktop."
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+### Prerequisites
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+As long as you have a pc, with node, npm running you are good to go!
 
-### Analyzing the Bundle Size
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+### Installing
 
-### Making a Progressive Web App
+A step by step series of examples that tell you how to get a development env running
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+```
+npm install
+```
 
-### Advanced Configuration
+```
+npm start
+```
+Now development server will open in your browser.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+## Built With
 
-### Deployment
+* [ReactJS](https://reactjs.org/docs/) - The web framework used
+* [firebase](https://firebase.google.com/docs) - Authentication and database
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+## Versioning
 
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+For the versions available, see the [https://github.com/07souravkunda/BurgerBuilder.git]. 
