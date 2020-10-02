@@ -1,8 +1,8 @@
-# BurgerBuilder
+# BurgerBuilder:
 
 Preview app https://burgerapp-86de2.firebaseapp.com/
 
-## Getting Started
+## Getting Started:
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 Cloning a repository using the command line
@@ -46,12 +46,12 @@ Cloning a repository to GitHub Desktop
 to clone your repository in Desktop. Follow the prompts in GitHub Desktop to complete the clone. For more information, see "Cloning a repository from GitHub to GitHub Desktop."
 
 
-### Prerequisites
+### Prerequisites:
 
 As long as you have a pc, with node, npm running you are good to go!
 
 
-### Installing
+### Installing:
 
 A step by step series of examples that tell you how to get a development env running
 
@@ -64,11 +64,11 @@ npm start
 ```
 Now development server will open in your browser.
 
-## Built With
+## Built With:
 
 * [ReactJS](https://reactjs.org/docs/) - The web framework used
 * [firebase](https://firebase.google.com/docs) - Authentication and database
 
-## Versioning
+## Versioning:
 
 For the versions available, see the [https://github.com/07souravkunda/BurgerBuilder.git]. 
